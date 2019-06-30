@@ -1,6 +1,6 @@
-# `id3conv`: a commandline tool to fix encoding error in music files
+# id3conv: a commandline tool to fix encoding error in music files
 
-Currently, `id3conv` supports only conversion from `GBK` to `UTF-8` assuming
+Currently, **id3conv** supports only conversion from `GBK` to `UTF-8` assuming
 the `ID3` tags were incorrectly encoded in `latin-1` or `ISO-8859-1` and decoded
 as `UTF-8` on Unix-like systems.
 
@@ -18,9 +18,9 @@ as `UTF-8` on Unix-like systems.
 5. run it like `id3conv ${musicFile1} ${musicFile2}`
 6. enjoy correct `UTF-8` meta info in your music
 
-## integrate with `macOS` context menu with `Automator`
+## integrate with **macOS** context menu with **automator**
 
-1. open `Automator`
+1. open **automator**
 2. create an empty service
 3. set `workflow receives current` <- `audio files` in `Finder`
 4. look for `run shell script` on the left menu and drag it in
